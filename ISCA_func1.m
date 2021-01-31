@@ -1,4 +1,4 @@
-function [Leader_score,Leader_pos,Convergence_curve]= ISCA_func(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
+function [Leader_score,Leader_pos,Convergence_curve]= ISCA_func1(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
 
  rand('state',sum(100*clock));
 N=SearchAgents_no;
