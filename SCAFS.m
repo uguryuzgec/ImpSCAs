@@ -63,11 +63,6 @@ fhd=fobj;
             end
         end
         
-% 	    if fitcount==100*dim||fitcount==200*dim||fitcount==300*dim||fitcount==500*dim...
-% 			||fitcount==1000*dim||fitcount==2000*dim||fitcount==3000*dim||fitcount==4000*dim||fitcount==5000*dim...
-% 			||fitcount==6000*dim||fitcount==7000*dim||fitcount==8000*dim||fitcount==9000*dim||fitcount==10000*dim
-% 				t=[t;abs(gbestval-varargin{:}*100)];              
-%         end
         k=k+1;
       
        ite=ite+1;
